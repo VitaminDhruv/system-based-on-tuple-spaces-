@@ -1,2 +1,3 @@
 # system-based-on-tuple-spaces-
-Implemented a tuple space as a shared memory segment to which multiple processes attached
+Implemented a tuple space as a shared memory segment to which multiple processes attached The processes should be able to perform the operations, write, read, and take from the tuple space. You should be able to write a matching function that matches tuples that contain any combinations of Strings, Integers, and Booleans. You can assume that a maximum of 3 entries in each tuple but it can be any combination of any of the three types mentioned <String, Integer, Boolean>, <Boolean, String, Integer> … etc. The matching also should include be able to specify all fields or match a specific type, for example <String, 124, true> or <”UHCL”, Boolean, 7>, … etc.  
+  
